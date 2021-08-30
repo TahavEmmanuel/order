@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    background: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    font-weight:
+}
+
+h1, h3 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%)
+}
+
+.heading {
+    padding: 0;
+}
+
+/* card section */
+
+.card {
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-head-text {
+    text-align: center;
+}
+
+.card-head-image {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+/* price section */
+
+.price {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 30px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.price-image {
+    float: left;
+}
+
+.change-plan {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+.change-plan:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-text {
+    margin-left: 60px;
+}
+
+.plan-text h6 {
+    font-weight: bold;
+}
+
+.cancelOrder {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.cancelOrder a {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%)
+}
+
+.cancelOrder a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    border: hsl(245, 75%, 52%) !important;
+    background-color: hsl(245, 75%, 52%) !important;
+    box-shadow: 0px 10px 10px hsl(225, 100%, 94%);
+}
+
+button:hover {
+    background-color: hsl(245, 86%, 72%) !important;
+    border: hsl(245, 86%, 72%) !important;
+}
+
+
+@media (min-width: 400px) {
+    body {
+        background: url(../images/pattern-background-desktop.svg);
+        background-repeat: none;
+    }
+
+    .card {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .card-body {
+        padding: 40px;
+    }
+}
+
