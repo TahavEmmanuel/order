@@ -116,6 +116,7 @@ button:hover {
     body {
         background: url(../images/pattern-background-desktop.svg);
         background-repeat: none;
+        background-size: cover;
     }
 
     .card {
